@@ -1,0 +1,10 @@
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\bin\Debug\Aikalaskin.exe.config
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\bin\Debug\Aikalaskin.exe
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\bin\Debug\Aikalaskin.pdb
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.csprojAssemblyReference.cache
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.Form1.resources
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.Properties.Resources.resources
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.csproj.GenerateResource.cache
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.csproj.CoreCompileInputs.cache
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.exe
+C:\Users\Tomas Nybondas\source\repos\Aikalaskin\Aikalaskin\obj\Debug\Aikalaskin.pdb
