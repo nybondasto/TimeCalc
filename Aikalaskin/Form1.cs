@@ -74,9 +74,30 @@ namespace Aikalaskin
         private void LeaveEvent(object sender, EventArgs e)
         {
             if (sender is TextBox)
+            {
                 ((TextBox)sender).BackColor = NormalColor;
+
+                TextBox txt = (TextBox)sender;
+
+                if (txt.Text.Trim() != "")
+                {
+                    DateTime temp;
+                    if (DateTime.TryParse(txt.Text, out temp))
+                    {
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Given text is not valid time!");
+                        txt.Focus();
+                    }
+                }
+            }
         }
 
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clear(); 
+        }
     }
 }

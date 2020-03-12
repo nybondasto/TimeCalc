@@ -65,7 +65,9 @@
             this.kloAlku.Name = "kloAlku";
             this.kloAlku.Size = new System.Drawing.Size(115, 29);
             this.kloAlku.TabIndex = 2;
+            this.kloAlku.Enter += new System.EventHandler(this.EnterEvent);
             this.kloAlku.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.moveToEnd);
+            this.kloAlku.Leave += new System.EventHandler(this.LeaveEvent);
             // 
             // kloLoppu
             // 
@@ -74,7 +76,9 @@
             this.kloLoppu.Name = "kloLoppu";
             this.kloLoppu.Size = new System.Drawing.Size(115, 29);
             this.kloLoppu.TabIndex = 3;
+            this.kloLoppu.Enter += new System.EventHandler(this.EnterEvent);
             this.kloLoppu.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.moveToCalc);
+            this.kloLoppu.Leave += new System.EventHandler(this.LeaveEvent);
             // 
             // btn
             // 
@@ -106,6 +110,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "CLEAR";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
